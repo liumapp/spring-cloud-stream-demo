@@ -8,8 +8,8 @@
 		<version>1.5.6.RELEASE</version>
 	</parent>
 
-	<groupId>com.liumapp.demo.cloud.stream</groupId>
-	<artifactId>spring-cloud-stream-demo</artifactId>
+	<groupId>com.liumapp.demo.cloud.stream.service</groupId>
+	<artifactId>stream-service</artifactId>
 	<version>v1.0.0</version>
 	<packaging>pom</packaging>
 
@@ -41,6 +41,7 @@
 		</dependencies>
 	</dependencyManagement>
   <modules>
-    <module>stream-service</module>
+    <module>demo-api-a</module>
+    <module>demo-api-b</module>
   </modules>
 </project>
