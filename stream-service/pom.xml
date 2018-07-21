@@ -23,8 +23,6 @@
 	</developers>
 
   <modules>
-    <module>demo-api-a</module>
-    <module>demo-api-b</module>
     <module>hello-stream</module>
   </modules>
 </project>
