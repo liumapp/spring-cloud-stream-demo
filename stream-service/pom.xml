@@ -24,5 +24,6 @@
 
   <modules>
     <module>hello-stream</module>
+    <module>first-group</module>
   </modules>
 </project>
