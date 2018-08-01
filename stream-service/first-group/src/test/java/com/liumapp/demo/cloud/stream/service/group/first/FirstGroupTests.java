@@ -28,7 +28,7 @@ public class FirstGroupTests {
 
     @Test
     public void contextLoads () {
-
+        input.send(MessageBuilder.withPayload("From MessageChannel").build());
     }
 
 }
