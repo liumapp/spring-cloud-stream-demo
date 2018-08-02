@@ -24,4 +24,14 @@ public class SinkReceiver {
         logger.info("Received: " + payload);
     }
 
+    @StreamListener("Output-1")
+    public void receivePut1 (Object payload) {
+        logger.info("put 1 Received: " + payload);
+    }
+
+    @StreamListener("Output-2")
+    public void receivePut2 (Object payload) {
+        logger.info("put 2 Received: " + payload);
+    }
+
 }
