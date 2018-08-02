@@ -26,6 +26,9 @@ public class FirstGroupTests {
         sinkSender.output().send(MessageBuilder.withPayload("From SinkSender").build());
     }
 
+    /**
+     * 不推荐使用
+     */
     @Test
     public void contextLoads () {
         input.send(MessageBuilder.withPayload("From MessageChannel").build());
