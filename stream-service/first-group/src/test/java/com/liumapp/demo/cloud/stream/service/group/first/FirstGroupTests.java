@@ -20,7 +20,7 @@ public class FirstGroupTests {
     private SinkSender sinkSender;
 
     @Autowired
-    private MessageChannel input;
+    private MessageChannel output;
 
     @Autowired
     @Qualifier("Output-1")
@@ -50,7 +50,7 @@ public class FirstGroupTests {
      */
     @Test
     public void contextLoads () {
-        input.send(MessageBuilder.withPayload("From MessageChannel").build());
+        output.send(MessageBuilder.withPayload("From MessageChannel").build());
     }
 
 
