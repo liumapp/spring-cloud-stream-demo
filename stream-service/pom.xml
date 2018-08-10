@@ -25,6 +25,6 @@
   <modules>
     <module>hello-stream</module>
     <module>first-group</module>
-    <module>second-group</module>
+    <module>group-test</module>
   </modules>
 </project>
