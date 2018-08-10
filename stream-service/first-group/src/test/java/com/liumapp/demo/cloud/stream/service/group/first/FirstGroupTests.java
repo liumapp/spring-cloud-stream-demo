@@ -11,6 +11,13 @@ import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
+/**
+ * @author liumapp
+ * @file FirstGroupTests.java
+ * @email liumapp.com@gmail.com
+ * @homepage http://www.liumapp.com
+ * @date 2018/8/7
+ */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = {FirstGroupMain.class})
 @WebAppConfiguration
